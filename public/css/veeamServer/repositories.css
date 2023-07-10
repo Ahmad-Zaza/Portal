@@ -1,0 +1,170 @@
+.check {
+    display: inline-block;
+    transform: rotate(45deg);
+    height: var(--height);
+    width: var(--width);
+    border-bottom: var(--borderWidth) solid var(--borderColor);
+    border-right: var(--borderWidth) solid var(--borderColor);
+}
+
+.greenTick {
+    color: green;
+    size: 12px;
+}
+
+td.actions i:not(:last-child) {
+    margin-right: 4px;
+}
+
+.repositoryTable,
+.backupsTable {
+    height: 70vh;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 100%;
+}
+
+table th {
+    color: #FA9351;
+    border-bottom: none!important;
+    position: relative!important;
+}
+
+.border-left-after {
+    position: relative;
+}
+
+.border-left-after::after {
+    height: 35%;
+    background-color: #1c1e1f;
+    content: '';
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: 33%;
+    border-radius: 7px;
+}
+
+table th:not(:last-child)::after {
+    height: 35%;
+    background-color: #1c1e1f;
+    content: '';
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: 35%;
+    border-radius: 7px;
+}
+
+.jobsTable {
+    margin-left: 15px;
+    margin-right: 15px;
+    /* min-height: 45vh; */
+    /*display:block;*/
+    width: 100%;
+    overflow-y: unset;
+}
+
+.coralLabel {
+    color: coral;
+}
+
+.coralLabel:hover {
+    color: white;
+}
+
+.repositoryJobTable {
+    height: 200px;
+    width: auto !important;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.btnAddNewRepo {
+    width: 150px;
+    height: 50px;
+}
+
+.modalInput {
+    width: 100%;
+    height: 50px;
+}
+
+.tableIcone {
+    width: 11px;
+    margin: 0 10px 0 0;
+    height: 20px;
+    position: relative;
+}
+
+#reposTable_filter,
+#jobsTable_filter {
+    margin-bottom: 25px;
+}
+
+#jobsTable_wrapper {
+    margin-top: -34px;
+    z-index: 0;
+}
+
+#reposTable_wrapper {
+    margin-top: -58px;
+    z-index: 0;
+}
+
+.search-container {
+    position: absolute;
+    right: 3%;
+    top: 34%;
+}
+
+.dataTables_filter label {
+    position: relative;
+}
+
+.search-icon {
+    width: 18px;
+    margin-right: 0px;
+    margin-top: -5px;
+}
+
+.fa-custom {
+    font-size: 15px!important;
+    margin-top: 25%;
+}
+
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+    border-bottom: none!important;
+}
+
+#sessionsTable_wrapper th,
+.selected-items-table th {
+    color: #FDB25B!important;
+}
+
+.selected-items-table .fa.fa-check {
+    color: white!important;
+}
+
+.rightNabarElement li {
+    position: relative;
+}
+
+.rightNabarElement li:not(:last-child) a::after {
+    height: 35%;
+    background-color: #1c1e1f;
+    content: '';
+    width: 1px;
+    position: absolute;
+    right: 0;
+    top: 29%;
+    border-radius: 7px;
+}
+
+.repositoryDetails {
+    margin: 6% 4%;
+}
+
+.mt--7 {
+    margin-top: -7px!important;
+}

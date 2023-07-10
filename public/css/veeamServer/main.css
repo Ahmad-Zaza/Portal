@@ -1,0 +1,691 @@
+.dropdown-menu {
+    background-color: #343a40 !important;
+    font-size: 13px!important;
+}
+
+.home-row {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+i {
+    color: #FDB25B;
+}
+
+.dropdown-menu a {
+    color: #fff !important;
+}
+
+.dropdown-menu a:hover {
+    background-color: rgb(128, 128, 128) !important;
+}
+
+.spinner_div {
+    top: 43%;
+    left: 48%;
+    position: absolute;
+    width: 6rem !important;
+    height: 6rem !important;
+}
+
+.btnMain {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    color: white;
+    background-color: #2B3135;
+    border-width: 1px;
+    border-color: #2B3135 #FA9351 #FA9351 #FA9351;
+    border-style: solid;
+    box-shadow: none;
+    outline: none;
+}
+
+.btnUpMask {
+    position: absolute;
+    top: -2px;
+    left: -1px;
+    width: 25%;
+    height: 1px;
+    background-color: #FA9351;
+}
+
+.btnDownMask {
+    position: absolute;
+    bottom: -2px;
+    right: 25%;
+    width: 75%;
+    height: 3px;
+    background-color: #2B3135;
+}
+
+.btnText {
+    margin-left: 20%;
+}
+
+.ulNavbar {
+    width: 100%;
+    padding-left: 0;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+.ulNavbar li:first-child a {
+    padding-left: 40px;
+}
+
+.table-th {
+    background-color: #2B3135;
+}
+
+.logorow {
+    /*background-color: #2B3135;*/
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.txt-ctelecoms1 {
+    color: #FA9351 !important;
+    font-weight: 600;
+}
+
+.navbarLayout {
+    background-color: #2B3135;
+    margin-left: 2px;
+    margin-right: -1px;
+    padding-left: 0!important;
+    flex: 1;
+}
+
+.liNavbar {
+    float: left;
+}
+
+#mainContent {
+    margin-left: 2%;
+    margin-right: 2%;
+    /* margin-top: 30px; */
+    max-width: 100vw;
+    margin-top: 25px;
+}
+
+.border-btn {
+    background-color: transparent;
+    border: solid;
+    border-color: #FA9351;
+    color: #FA9351 !important;
+}
+
+.leftNavBar-max .submenu a {
+    padding-left: 62px;
+}
+
+.sub-menu-link:hover {
+    color: #FDB25B!important;
+    background-color: #23282b;
+}
+
+a {
+    transition: all 0.5s ease;
+}
+
+.sub-menu-link {
+    color: inherit;
+    display: block;
+    padding: 10px;
+}
+
+.nav-padding {
+    padding-right: 0px !important;
+}
+
+.liNavbar a,
+#user-menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 100% !important;
+}
+
+.liNavbar a.active,
+#user-menu a.active {
+    background-color: #23282b;
+}
+
+.liNavbar a:hover:not(.active),
+#user-menu a:hover:not(.active) {
+    color: #FA9351;
+}
+
+.rightNabarElement .user-nav span {
+    margin-right: 5px;
+}
+
+.rightNabarElement {
+    font-size: 12px!important;
+}
+
+.nopadding {
+    padding: 0!important;
+}
+
+.left-nav-list {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: block;
+}
+
+.active {
+    color: #FA9351 !important;
+}
+
+.rightNabarElement {
+    float: right;
+}
+
+
+/*----------------------------------------------------------------------*/
+
+
+/*modal style*/
+
+.modalContent {
+    background-color: #2B3135;
+}
+
+.modal-content {
+    background-color: #2B3135 !important;
+}
+
+.modalHeader {
+    background-color: #000;
+    border-block-end-color: #FA9351 !important;
+}
+
+.modalFooter {
+    background-color: #000;
+    border-block-start-color: #FA9351 !important;
+    ;
+}
+
+.modalLabel {
+    color: white;
+}
+
+.modalRow {
+    text-align: center;
+    top: 2vh;
+}
+
+::placeholder {
+    color: white;
+}
+
+.modalInput:focus {
+    border-bottom-color: #FA9351;
+    border-width: 0px 0px 1px 0px;
+    background-color: #000;
+    color: white;
+    outline-width: 0;
+}
+
+.sessions-hide {
+    display: none;
+}
+
+.modalInput {
+    border-bottom-color: #FA9351;
+    border-width: 0px 0px 1px 0px;
+    background-color: #000;
+    color: white;
+    outline-width: 0;
+}
+
+p {
+    font-size: 12px;
+    color: #ddd;
+}
+
+.modalSelect {
+    border-bottom-color: #FA9351;
+    border-width: 0px 0px 1px 0px;
+    background-color: #000;
+    color: white;
+}
+
+
+/*autocomplet option for modal*/
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px rgb(66, 74, 80) inset !important;
+    -webkit-text-fill-color: white;
+}
+
+
+/*----------------------------------------------------------------------*/
+
+
+/*Scroll bar*/
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #191d1f;
+    border-radius: 3px;
+    background: #191d1f;
+}
+
+body {
+    /*background-color: #26282a;*/
+    background-color: #191d1f;
+}
+
+.left-col {
+    text-align: left !important;
+    padding-left: 35px !important;
+    word-break: break-all;
+}
+
+.repos-left-col {
+    text-align: left !important;
+    padding-left: 0 !important;
+    word-break: break-all;
+}
+
+.table-div {
+    display: table;
+    width: 99%;
+    height: 100%;
+}
+
+.table-col {
+    float: none !important;
+    display: table-cell;
+    vertical-align: top;
+}
+
+
+/* Handle */
+
+* {
+    scrollbar-color: #fdb25b #191d1f;
+    scrollbar-width: thin!important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FA9351;
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #FA9351;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-button {
+    width: 10px;
+}
+
+.actions-row button {
+    min-width: 150px!important;
+}
+
+.actions-row a {
+    min-width: 150px!important;
+    /* padding-top: 7px; */
+}
+
+.min-width-270 {
+    min-width: 270px!important;
+}
+
+.min-width-150 {
+    min-width: 150px!important;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    vertical-align: middle!important;
+}
+
+.selected-items-table {
+    overflow-y: auto!important;
+    max-height: 45vh;
+}
+
+td {
+    position: relative!important;
+}
+
+.timepicker-icon {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    width: 15px;
+    margin-right: 14px;
+    margin-top: -7px;
+}
+
+.nav-arrow {
+    width: 5px;
+    margin: auto 3px;
+}
+
+.after-none::after {
+    display: none!important;
+}
+
+.exchange-color.active,
+.exchange-color:hover {
+    color: #0078d4!important;
+}
+
+.onedrive-color.active,
+.onedrive-color:hover {
+    color: #28a8ea!important;
+}
+
+.sharepoint-color.active,
+.sharepoint-color:hover {
+    /* color: #036c70!important; */
+    color: #04868a!important;
+}
+
+.teams-color.active,
+.teams-color:hover {
+    color: #4f58ca!important;
+}
+
+.dt-buttons {
+    float: left;
+}
+
+.dt-buttons button {
+    background-color: transparent;
+    border: none;
+    font-size: 22px;
+    padding-top: 4px;
+}
+
+.mr-0 {
+    margin-right: 0!important;
+}
+
+
+/*----------------------------------------------------------------------*/
+
+.nopadding-bottom {
+    padding-bottom: 0!important;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.job-session-details .newJobRow {
+    min-height: 120px;
+}
+
+.rightNabarElement .liNavbar:not(.user-nav) a:hover {
+    color: white!important;
+}
+
+.left-nav-list.collapsed .caret {
+    border-right-width: 0px;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #FDB25B;
+}
+
+.leftNavBar-max .left-nav-list.collapsed .caret {
+    border-left: 4px solid #FDB25B;
+}
+
+.leftNavBar-max .left-nav-list.collapsed:not(.active) .caret {
+    border-left-color: #fff;
+}
+
+.leftNavBar-min .left-nav-list:not(.collapsed) .caret {
+    border-top-color: #FDB25B!important;
+}
+
+#reposTable,
+#jobsTable {
+    table-layout: fixed;
+}
+
+.resusersum,
+.resgroupsum {
+    float: right;
+}
+
+.groupsum,
+.usersum,
+.teamssum,
+.sitessum,
+.ressitessum,
+.resteamssum {
+    text-align: right !important;
+}
+
+.sep {
+    padding-left: 5px;
+    padding-right: 5px;
+    float: right;
+}
+
+.after-none {
+    width: 30px !important;
+}
+
+.modalContent .input-form-70 {
+    margin-bottom: 15px;
+}
+
+.mr-25 {
+    margin-right: 25px;
+}
+
+.mb-1 {
+    margin-bottom: 5px!important;
+}
+
+.halfWidth {
+    width: 50%!important;
+}
+
+.text-orange1 {
+    color: #FA9351!important;
+}
+
+.text-orange1 {
+    color: #FDB25B!important;
+}
+
+tfoot th {
+    font-size: 10px!important;
+    border-top: 1px solid #636363!important;
+}
+
+.user-nav.dropdown a {
+    color: #FA9351 !important;
+}
+
+.user-nav.dropdown a span {
+    color: white!important;
+}
+
+.modal-dialog {
+    width: 500px!important;
+}
+
+#rdate,
+.orgSpan,
+#rtime {
+    align-self: center;
+}
+
+.dropdown-toggle::after {
+    display: none!important;
+}
+
+.selected-action .dropdown-toggle {
+    text-align: left;
+    position: relative;
+}
+
+.selected-action .dropdown-toggle .fa-caret-down {
+    position: absolute;
+    right: 8px;
+    top: 35%;
+}
+
+.tree-checkBox {
+    width: 10px !important;
+    height: 10px !important;
+    top: -3px!important;
+    left: 3px!important;
+}
+
+.tree-checkBox::after {
+    left: 4px !important;
+    top: -7px !important;
+    width: 6px !important;
+    height: 14px !important;
+}
+
+.mail-click {
+    transition: all 0.5s ease;
+}
+
+.not-badge {
+    background-color: #fa9351!important;
+    border-radius: 10px!important;
+    font-size: 10px!important;
+    left: 22px!important;
+    position: absolute!important;
+    top: 7px!important;
+}
+
+.notLink {
+    position: relative;
+    font-size: 16px;
+}
+
+.firstAfter::after {
+    content: none!important;
+}
+
+.ui-datepicker-next span {
+    background-image: url("/svg/arrow-right.svg")!important;
+    background-position: center;
+}
+
+.ui-datepicker-prev span {
+    background-image: url("/svg/arrow-right.svg")!important;
+    transform: rotate(180deg);
+    background-position: center;
+}
+
+.radio .checkmark {
+    top: 2px!important;
+    left: 0px!important;
+    height: 15px!important;
+    width: 15px!important;
+}
+
+.radio .checkmark:after {
+    top: 3px!important;
+    left: 3px!important;
+}
+
+.radio label {
+    padding-left: 22px!important;
+}
+
+.radio+.radio {
+    margin-top: 10px!important;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.dataTables_scrollHeadInner {
+    width: 100% !important;
+}
+
+.tooltipSpan {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.allHeight {
+    height: 100%;
+}
+
+.select2-selection {
+    background-color: #424a50!important;
+    border-right: none !important;
+    border-top: none !important;
+    border-bottom: none !important;
+    height: 35px !important;
+    border-left: 2px solid #FA9351!important;
+    border-radius: 0px !important;
+}
+
+.select2-selection__rendered {
+    color: white;
+    /* border: none; */
+    /* vertical-align: bottom; */
+    padding-top: 2px;
+}
+
+.select2-dropdown {
+    background-color: #424a50!important;
+}
+
+.select2-search__field {
+    background-color: #4f5153!important;
+}
+
+.ellipsisContent {
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 150px;
+}
+
+.block {
+    display: block;
+}
+
+.fa-check-circle {
+    cursor: default;
+}

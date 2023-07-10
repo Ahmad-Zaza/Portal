@@ -1,0 +1,388 @@
+#detailsModal .itemTitle {
+    margin-right: 5px;
+    color: #FA9351;
+}
+
+.checkbox-container .check-mark:after {
+    left: 6px!important;
+    top: -8px!important;
+    width: 9px!important;
+    height: 19px!important;
+}
+
+.checkbox-search .check-mark:after {
+    left: 3px!important;
+    top: -5px!important;
+    width: 6px!important;
+    height: 12px!important;
+}
+
+.orgSpan {
+    font-size: 12px;
+}
+
+.tableRow {
+    justify-content: center;
+}
+
+.after-none {
+    width: 30px!important;
+}
+
+.modal-content table .after-none {
+    width: 15px!important;
+    min-width: 15px;
+}
+
+.customBorder {
+    border: 0.1px solid #636363;
+}
+
+.customBorder-right {
+    border-right: 0.1px solid #636363;
+}
+
+.customBorder-left {
+    border-right: 0.1px solid #636363;
+}
+
+.authCont {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.1px solid #636363;
+}
+
+.radio+.radio {
+    margin-top: 0!important;
+}
+
+.radioDiv {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.radioDiv>div {
+    margin-right: 10px!important;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.modal-content table {
+    margin-bottom: 0!important;
+}
+
+.modal-content table th,
+.modal-content table td {
+    text-align: left!important;
+}
+
+
+/* .daysNumber {
+    width: 150px!important;
+    height: 20px!important;
+    min-height: 20px!important;
+} */
+
+textarea.form-control {
+    height: auto!important;
+}
+
+.mailCaret.closeMail {
+    border-right-width: 0px;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid white;
+}
+
+.mailCaret {
+    position: absolute;
+    left: -4px;
+    top: 33%;
+}
+
+.flex {
+    display: flex;
+}
+
+.filter-icon {
+    position: absolute;
+    top: 26%;
+    left: 38%;
+}
+
+.tree-filter-menu {
+    top: 14%;
+    left: 43px;
+}
+
+.tree-filter-menu::before {
+    /* content: " "; */
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 16px solid #343a40;
+    position: absolute;
+    top: 0;
+    margin-left: -15px;
+}
+
+.bb {
+    border-bottom: 0.1px solid #636363;
+}
+
+.filter-table td:not(.empty) {
+    border: 2px solid #343a40!important;
+    background-color: #424a50!important;
+    cursor: pointer;
+}
+
+.filter-table td span.active {
+    color: #fa783c;
+}
+
+.font-small {
+    font-size: 12px;
+}
+
+.filterCont>div {
+    flex: 1;
+}
+
+.bbr {
+    border-right: 0.1px solid #636363;
+}
+
+.folderIcon {
+    width: 15px;
+    height: 12px;
+    margin-left: 25px;
+    margin-right: 3px;
+    margin-top: 4px;
+}
+
+.left-col {
+    /* white-space: pre-wrap!important; */
+    word-break: keep-all!important;
+}
+
+#itemsTable_wrapper {
+    margin-top: -30px;
+}
+
+.loadingRow button {
+    width: fit-content;
+    z-index: 9;
+}
+
+.loadingRow label {
+    flex: 0.2;
+    align-self: center;
+    margin-bottom: 0!important;
+}
+
+.loadingRow button {
+    flex: 0.8;
+    max-width: 120px;
+    align-self: center;
+    border-radius: 0!important;
+}
+
+.loadingRow {
+    min-height: 35px;
+}
+
+.folder-spinner::after {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+    width: 10px;
+    height: 10px;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    border-top-color: #333;
+    animation: spinner .6s linear infinite;
+}
+
+.mailboxfolder {
+    position: relative;
+}
+
+.folder-spinner {
+    display: block;
+    height: 20px;
+}
+
+table.nowrap {
+    table-layout: fixed!important;
+}
+
+table.nowrap:not(.filter-table) td:not(.wrap) {
+    word-wrap: break-word;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+table.nowrap:not(.filter-table) td.wrap {
+    white-space: pre-wrap;
+    text-align: left!important;
+}
+
+.tooltip-inner {
+    background-color: black;
+    color: white
+}
+
+.mail-box #mailboxes,
+.mail-box #mainTree {
+    max-height: 75vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: #d5d5d5;
+}
+
+span.mail-click {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+}
+
+.dataTables_scrollBody {
+    height: auto!important;
+    overflow-x: hidden!important;
+}
+
+.sess-info-details {
+    color: #c1c0c0;
+}
+
+.sess-info {
+    margin-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 13px;
+}
+
+.sess-title {
+    font-weight: 600;
+}
+
+.onedrive-spinner::after {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    border-top-color: #333;
+    animation: spinner .6s linear infinite;
+}
+
+.onedrive-spinner {
+    display: block;
+    height: 20px;
+    position: absolute;
+    right: 10%;
+    top: 33%;
+    z-index: 5;
+}
+
+.postCaret {
+    margin-left: 8px!important;
+    margin-top: 2px!important;
+}
+
+.folderPathRow {
+    font-size: 12px;
+    background-color: #2b3135;
+    border-bottom: solid 1px #636363;
+}
+
+.folderPathSpan a:hover {
+    color: #FA9351!important;
+}
+
+.select2-container:focus {
+    outline: none;
+}
+
+.popover-content {
+    padding-top: 0px!important;
+    background-color: #23282b!important;
+    border: none!important;
+    padding: 5px!important;
+    font-size: 11px!important;
+}
+
+.popover-title {
+    font-family: "Open Sans", Arial, sans-serif!important;
+    /* padding-bottom: 0px!important; */
+    background-color: #23282b!important;
+    border: none!important;
+    padding: 5px!important;
+    font-size: 11px!important;
+}
+
+.popover {
+    font-family: "Open Sans", Arial, sans-serif!important;
+    border: none!important;
+    background: none!important;
+}
+
+.popover.right>.arrow {
+    left: -13px!important;
+}
+
+.popover.right>.arrow:after {
+    border-right-color: #23282b!important;
+}
+
+.ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+}
+
+.mailBoxButton,
+.mailBoxFolderButton,
+.onedriveItemsButton,
+.onedriveFoldersButton,
+.channelButton,
+.teamsButton {
+    padding-right: 30px!important;
+}
+
+.z-10 {
+    z-index: 10;
+}
+
+.tree ul li:last-child {
+    margin-bottom: 0!important;
+    padding-bottom: 0!important;
+}
+
+#searchModal .modalContent .row {
+    margin: 0;
+    justify-content: center;
+}
+
+button[type='submit'][disabled='disabled'],
+button[type='submit'][disabled='disabled']:hover {
+    background: #6E5243!important;
+    color: #737779;
+}
+
+#jobsModal .modal-dialog {
+    width: 600px!important;
+}

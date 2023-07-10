@@ -1,0 +1,21 @@
+.right-menu-ul li img {
+    left: auto;
+    right: -5px;
+}
+.decoration-sec3 {
+    left: auto;
+    right: 0;
+}
+.section3-left::after {
+    left: auto;
+    right: 0;
+}
+.form-control {
+    display: block;
+    /* width: 95%; */
+    margin: auto;
+    border-radius: 0;
+    box-shadow: none;
+    transition: none;
+    border: 1px solid #ddd;
+}

@@ -1,0 +1,97 @@
+.main-button {
+    width: 101.5%!important;
+    margin-left: -25px!important;
+}
+
+.mb-75 {
+    margin-bottom: 75px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.select-custom {
+    margin-bottom: 3px;
+}
+
+.display-block {
+    display: block!important;
+}
+
+.custom-btn-sm {
+    background-color: transparent;
+    border: transparent;
+}
+
+.display-root {
+    display: flow-root!important;
+}
+
+.main-filter-cont .select2-container--default {
+    width: 300px!important;
+}
+
+.controlsDivStyle {
+    display: none !important;
+}
+
+#durationFrom,
+#durationTo {
+    text-align: left;
+}
+
+i {
+    padding: 0px 3px;
+}
+
+.sess-info {
+    margin-bottom: 6px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 12px;
+}
+
+.sess-title {
+    font-weight: 600;
+}
+
+.newJobRow {
+    padding-top: 20px;
+    height: 100%;
+    margin-bottom: -35px;
+}
+
+.sess-info-details {
+    color: #c1c0c0;
+}
+
+.job-session-details {
+    display: flex;
+    position: relative;
+}
+
+.job-session-details>.col-lg-3 {
+    display: block;
+    position: relative;
+    flex: 1;
+}
+
+.dataTables_scrollBody {
+    height: auto !important;
+}
+
+.main-button-cont {
+    width: 98.5%;
+}
+
+.main-filter-cont .select2-selection,
+.main-filter-cont .select2-container--default .select2-search--dropdown .select2-search__field,
+.main-filter-cont .select2-results__option:not(.select2-results__option--highlighted),
+.main-filter-cont .select2-search {
+    background-color: #2b3135!important;
+}
+
+.main-filter-cont .select2-container {
+    padding-left: 1px!important;
+}
